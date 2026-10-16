@@ -5,7 +5,7 @@ package curso.maratonajava.exercicios;
 
 import java.util.Scanner;
 
-public class Exercicio01 {
+public class Exercicios01 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
