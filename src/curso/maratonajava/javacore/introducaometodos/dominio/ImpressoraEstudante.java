@@ -7,5 +7,5 @@ public class ImpressoraEstudante {
         System.out.println(estudante.idade);
         System.out.println(estudante.sexo);
 
-    };
+    }
 }
