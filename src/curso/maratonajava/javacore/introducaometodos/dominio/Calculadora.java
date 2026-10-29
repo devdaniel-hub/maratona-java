@@ -44,9 +44,12 @@ public class Calculadora {
 
     }
 
-    //Desafio: Criar uma calculadora que válida se um número é primo ou não
-    //Retornar true se for e false se não for
+    public void somaArray(int[] numeros){
+        int soma = 0;
+        for (int num : numeros){
+            soma += num;
+        }
+        System.out.println(soma);
 
-    //Criar uma calculadora que recebe uma lista,
-    //Retorna toda a lista x2
+    }
 }
