@@ -2,8 +2,10 @@ package curso.maratonajava.javacore.introducaometodos.dominio;
 
 public class Calculadora {
 
-    public void somaDoisNumeros (){
-        System.out.println(110 + 50);
+    //public: modificador de acesso / void: retorno da função
+    public static int somaDoisNumeros (int num1, int num2){
+
+        return(num1 + num2);
     }
 
     public void subtraiDoisNumeros(){
@@ -43,6 +45,7 @@ public class Calculadora {
         System.out.println("Num2 " + numero2);
 
     }
+
 
     public void somaArray(int[] numeros){
         int soma = 0;
